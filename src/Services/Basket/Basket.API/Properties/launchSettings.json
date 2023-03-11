@@ -17,6 +17,12 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
+      "publishAllPorts": true
     }
   },
   "$schema": "https://json.schemastore.org/launchsettings.json",
@@ -24,7 +30,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:12517",
+      "applicationUrl": "http://localhost:2146",
       "sslPort": 0
     }
   }
